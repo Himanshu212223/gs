@@ -1,7 +1,7 @@
 *{
     margin: 0 0;
     padding: 0 0;
-    font-size: large;
+    font-size: 1.2rem;
     font-family: 'Quicksand', sans-serif;
 }
 .main{
@@ -22,7 +22,7 @@
     flex-direction: column;
     flex-flow: column;
     height: 20vh;
-    width: 80%;
+    width: 20%;
     margin: 10px 10px;
     border-radius: 10px;
     background-color: white;
@@ -66,4 +66,11 @@ p{
 }
 .visible{
     display: inherit;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 770px){
+    .topic{
+        width: 80%;
+    }
 }
