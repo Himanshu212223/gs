@@ -47,6 +47,11 @@
     color: rgb(113, 162, 16);
     font-size: inherit;
 }
+.purple{
+    font-weight: 900;
+    color: purple;
+    font-size: inherit;
+}
 ul li{
     list-style: none;
 }
