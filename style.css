@@ -29,6 +29,20 @@
     margin: 10px 10px;
     border-radius: 10px;
     background-color: white;
+    cursor: pointer;
+}
+.topics{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: column;
+    height: 20vh;
+    width: 20%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: white;
 }
 .icon{
     /* position: sticky; */
@@ -70,6 +84,15 @@ p{
     font-size: large;
     padding-left: 20px;
 }
+hr{
+    width: 100%;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
 .hidden{
     display: none;
 }
@@ -84,6 +107,7 @@ p{
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
 }
 .docx{
     display: flex;
